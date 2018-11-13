@@ -1,0 +1,56 @@
+class Serigala
+{
+  
+     String berbulu;
+     String bertaring;
+     int jumlahcakar;
+     int jumlahekor; 
+     
+     String berlari;
+     String menerkam;
+     String menggigit;
+     String karnivora;
+             
+     public Serigala(String berblu,String brtaring,int jumlhcakar, int jumlhekor
+                     ,String berlri, String menerkm, String menggt, String karnivra){  
+        this.berbulu=berblu;
+        this.bertaring=brtaring;
+        this.jumlahcakar=jumlhcakar;
+        this.jumlahekor=jumlhekor;
+        
+        this.berlari=berlri;
+        this.menerkam=menerkm;
+        this.menggigit=menggt;
+        this.karnivora=karnivra;
+     }
+
+    
+   
+//method
+public void tampilData()
+{ System.out.println("=======Serigala=========");
+   System.out.println("Serigala Berbulu  "+ this.berbulu);
+   System.out.println("Serigala Bertaring "+ this.bertaring);
+   System.out.println("Serigala memiliki "+this.jumlahcakar+(" Cakar"));
+   System.out.println("Serigala memiliki "+this.jumlahekor+(" Ekor") );
+   System.out.println("");
+   
+   System.out.println("=======Aksi Serigala=========");
+   System.out.println("Serigala dapat  "+ this.berlari);
+   System.out.println("Serigala dapat "+ this.menerkam);
+   System.out.println("Serigala dapat "+this.menggigit);
+   System.out.println("Serigala memakan daging ("+this.karnivora+")");
+   System.out.println("");
+}
+}
+ 
+ public class dataSerigala{      
+ public static void main(String[] args){
+    
+    Serigala beraksi;
+     beraksi = new Serigala("Lembut" ,"2", 10 , 1, "Berlari kencang", "menerkam", "menggigit", "karnivora" );
+    beraksi.tampilData();
+   }
+}   
+
+  
