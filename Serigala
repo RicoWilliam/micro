@@ -1,6 +1,6 @@
 class Serigala
 {
-  
+     //Atribut
      String berbulu;
      String bertaring;
      int jumlahcakar;
